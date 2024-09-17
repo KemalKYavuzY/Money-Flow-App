@@ -1,4 +1,4 @@
-# Gradle files
+# Gradle Files
 .gradle/
 build/
 
@@ -15,7 +15,7 @@ captures/
 *.apk
 output.json
 
-# IntelliJ
+# IntelliJ IDEA
 *.iml
 .idea/
 misc.xml
@@ -31,3 +31,67 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Node Modules
+node_modules/
+
+# Maven/Gradle Build Files
+target/
+out/
+bin/
+
+# Spring Boot specific
+/target/
+/out/
+/logs/
+*.jar
+*.war
+*.ear
+
+# Database Files
+*.db
+*.sql
+*.sqlite
+*.mysql
+*.h2.db
+*.mv.db
+
+# IntelliJ IDEA specific
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse specific
+.project
+.classpath
+.settings/
+.springBeans
+
+# STS (Spring Tool Suite) specific
+.springBeans
+
+# VS Code specific
+.vscode/
+
+# MySQL credentials and config
+*.properties
+*.yml
+.env
+application.properties
+application.yml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+/logs
+*.log
+
+# Temporary Files
+*.tmp
+*.swp
+
+# Testing Files
+/test-output
